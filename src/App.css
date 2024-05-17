@@ -1,0 +1,470 @@
+.link-active {
+  background-color: #5A45FE;
+  color: #fff !important;
+  border-radius: 0.7rem;
+}
+
+.bgColor {
+  background-color: #5A45FE;
+}
+
+.apButton {
+  background-color: rgb(99, 164, 1) !important;
+}
+
+header {
+  width: 25rem;
+  background-color: #fff;
+  height: 100%;
+  z-index: 100;
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  left: 0;
+}
+header nav {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 3rem;
+}
+header .sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+header .sidebar .sidebar-content {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+header .sidebar .sidebar-content button {
+  margin-top: 2rem;
+  background-color: #5A45FE;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  margin-left: 1.4rem;
+  font-weight: bold;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+header .sidebar .sidebar-content a {
+  text-decoration: none;
+  color: rgb(68, 66, 66);
+  font-size: 1.5rem;
+}
+header .sidebar .sidebar-content a .navitem {
+  padding: 0.7rem;
+  padding-left: 1.4rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 0.7rem;
+}
+header .sidebar .sidebar-content a .navitem svg {
+  width: 20px;
+  height: 20px;
+}
+header .sidebar .top-sidebar h1 {
+  font-size: 2.2rem;
+}
+header .sidebar .top-sidebar p {
+  font-size: 1.5rem;
+}
+header .sidebar .bottom-sidebar h1 {
+  font-size: 1.8rem;
+}
+
+.createForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.createForm h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.createForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.createForm form .timeP {
+  color: red;
+}
+.createForm form input {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #fff;
+  outline: none;
+  width: 40rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  font-size: 1.4rem;
+}
+.createForm form .timePicker {
+  font-size: 2rem;
+}
+.createForm form .button1 {
+  background-color: #5A45FE;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 2rem;
+  padding: 0.7rem 1.5rem;
+  font-weight: bold;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  width: 40rem;
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+}
+.home .main-content {
+  width: calc(100% - 25rem);
+  margin-left: 25rem;
+}
+.home .main-content .patient-search {
+  display: flex;
+  justify-content: center;
+}
+.home .main-content .patient-search input {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #fff;
+  outline: none;
+  width: 40rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  font-size: 1.4rem;
+}
+.home .main-content .patient-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem 3rem;
+  padding: 2rem 3rem;
+}
+.home .main-content .patient-list .patientBox {
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 0.7rem;
+}
+.home .main-content .patient-list .patientBox .pItem2 {
+  padding: 0 2rem;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.home .main-content .patient-list .patientBox .pItem2 .timeA {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.home .main-content .patient-list .patientBox .pItem2 svg {
+  width: 25px;
+  height: 25px;
+  color: rgb(255, 0, 93);
+}
+.home .main-content .patient-list .patientBox .pItem2 button {
+  background-color: rgb(255, 0, 93);
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+.home .main-content .patient-list .patientBox .pItem {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+}
+.home .main-content .patient-list .patientBox .pItem h1 {
+  font-size: 2rem;
+}
+.home .main-content .patient-list .patientBox .pItem p {
+  font-size: 1.4rem;
+}
+.home .main-content .patient-list .patientBox .pItem svg {
+  width: 35px;
+  height: 35px;
+  color: palevioletred;
+}
+.home .main-content .topNav {
+  margin: 0 0 3rem 0;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.home .main-content .topNav .left-content h1 {
+  font-size: 2rem;
+}
+.home .main-content .topNav .left-content h1 span {
+  color: #5A45FE;
+}
+.home .main-content .topNav .right-content .imgDiv {
+  width: 35px;
+  border-radius: 50%;
+  height: 35px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.home .main-content .topNav .right-content .imgDiv img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.home .home-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 100vh;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.home .home-content h1 {
+  font-size: 4rem;
+}
+.home .home-content button {
+  background-color: #5A45FE;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+
+.selectItem {
+  font-size: 1.3rem !important;
+  padding: 0;
+}
+
+#demo-simple-select-label {
+  top: -7px;
+}
+
+#demo-simple-select {
+  padding: 1rem !important;
+}
+
+.dayFilter2 {
+  margin: 3rem 3rem;
+  background-color: #fff;
+  height: 300px;
+  display: flex;
+}
+.dayFilter2 .d1 {
+  width: 60%;
+  height: 100%;
+  display: grid;
+  margin-right: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem 1.5rem;
+}
+.dayFilter2 .d1 .box {
+  height: 100%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.dayFilter2 .d1 .box h1 {
+  font-size: 2rem;
+}
+.dayFilter2 .d1 .box p {
+  font-size: 1.4rem;
+  color: #F76767;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+}
+.dayFilter2 .d1 .box p span {
+  display: flex;
+  align-items: center;
+}
+.dayFilter2 .d1 .box p img {
+  width: 30px;
+  height: auto;
+}
+.dayFilter2 .d2 {
+  width: 40%;
+  margin-left: 1rem;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background-color: #fff;
+  padding: 1.5rem;
+}
+.dayFilter2 .d2 h1 {
+  margin-bottom: 2.2rem;
+}
+.dayFilter2 .d2 .d2Info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+.dayFilter2 .d2 .d2Info p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: right;
+}
+.dayFilter2 .d2 .d2Info .div1 {
+  width: 75px;
+  height: 20px;
+  border-radius: 0.7rem;
+  padding: 1rem;
+  background-color: #5A45FE;
+}
+.dayFilter2 .d2 .d2Info .div2 {
+  width: 175px;
+  height: 20px;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  background-color: #5A45FE;
+}
+.dayFilter2 .d2 .d2Info .div3 {
+  width: 115px;
+  height: 20px;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  background-color: #5A45FE;
+}
+.dayFilter2 .d2 .d2Info .div4 {
+  width: 165px;
+  height: 20px;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  background-color: #5A45FE;
+}
+.dayFilter2 .d2 .d2Info .div5 {
+  width: 85px;
+  height: 20px;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  background-color: #5A45FE;
+}
+
+.dayFilter {
+  margin: 1rem 3rem;
+  background-color: #fff;
+  border-radius: 0.7rem;
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  gap: 3rem;
+}
+.dayFilter input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+}
+.dayFilter p {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.dayFilter p span {
+  color: #5A45FE;
+  font-size: 2rem;
+}
+.dayFilter p .spanL {
+  color: #F76767;
+}
+
+.loginContainer {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.loginContainer .loginBox {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+.loginContainer .loginBox img {
+  width: 90px;
+  height: 100%;
+}
+.loginContainer .loginBox h1 {
+  font-size: 2.6rem;
+  color: #000;
+}
+.loginContainer .loginBox p {
+  font-size: 1.6rem;
+}
+.loginContainer .loginBox p span {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1132px) {
+  .dayFilter2 .d1 .box h1 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 1080px) {
+  .dayFilter2 {
+    flex-direction: column;
+    width: 100%;
+    gap: 3rem;
+  }
+  .dayFilter2 .d1, .dayFilter2 .d2 {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .dayFilter {
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 3rem;
+  }
+  .dayFilter2 {
+    margin-left: 0;
+  }
+  .inputF {
+    padding: 1rem !important;
+  }
+  .dayFilter2 .d1 {
+    height: 100%;
+    padding: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .loginContainer {
+    width: 60%;
+    margin-left: 25rem;
+  }
+}
+@media (max-width: 450px) {
+  .home .main-content .topNav .left-content h1 {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=App.css.map */
